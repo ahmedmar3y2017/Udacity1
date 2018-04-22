@@ -1,0 +1,52 @@
+
+body {
+    background-color: #ddd;
+    font-family: Arial, tahoma;
+}
+
+.container {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+
+    border: 2px solid #cccccc;
+
+}
+
+.header {
+
+    border: 2px solid #F6318C;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+
+.container img {
+    width: 300px;
+    border: 2px dotted #F6318C;
+    border-radius: 10px;
+    margin: 20px 0;
+
+}
+
+.parent .italic{
+    font-style: italic;
+}
+
+.proprites li{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.proprites li span{
+    font-weight: bold;
+}
+
+.container>div{
+    margin-top: 20px;
+    border: 3px groove #F6318C;
+    padding: 0px 10px;
+}
